@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "vue": "^3.2.47"
@@ -19,6 +20,7 @@
     "sass": "^1.62.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.0",
+    "vite-svg-loader": "^4.0.0",
     "vue-tsc": "^1.2.0"
   }
 }
