@@ -30,12 +30,12 @@ function onOpenLink(event: Event) {
         <p class="mt-0 mb-4 text-700 line-height-3">
           While our website is under construction you can still order your perfect gift via Instagram or Special form.
         </p>
-        <prm-button label="Instagram" type="button" class="mr-3 p-button-raised" @click="onOpenLink($event)"></prm-button>
-        <prm-button label="Order" type="button" class="p-button-outlined" @click="onOpenLink($event)"></prm-button>
+        <prm-button label="Instagram" type="button" class="mr-3 p-button-raised" @click="onOpenLink($event)"/>
+        <prm-button label="Order" type="button" class="p-button-outlined" @click="onOpenLink($event)"/>
       </section>
     </div>
     <div class="col-12 md:col-6">
-      <scrx-logo class="md:ml-auto block w-50 text-800" />
+      <scrx-logo class="md:ml-auto block w-50 text-800"/>
     </div>
   </div>
 </template>
